@@ -1,5 +1,14 @@
 #!/bin/bash
+echo "rrrrrrrrrr"
 
-echo "root directory"
+dir=/home/vboxuser/git_practice/sample01/
+echo $dir
+
+#るーとディレクトリに移動する
 cd /
-ls -l
+
+country=japan
+echo 'I came from $country'
+echo "I came from $country"
+
+echo "\$1 = $1"
